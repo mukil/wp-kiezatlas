@@ -22,6 +22,12 @@
     You should have received a copy of the GNU General Public License
     along with this program; if not, write to the Free Software
     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+
+    About this file:
+    This plugin-file should just make sure that the two page-templates are set up properly 
+    with their various JS and CSS dependencies. And yes, the various data is fetched from 
+    within the two page-templates.
+
 */
 
 /** Make this configurable */
