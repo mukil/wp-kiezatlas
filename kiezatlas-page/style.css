@@ -1,0 +1,133 @@
+
+#content.kiezatlas {
+    padding: 20px;
+    display: block;
+    width: 600px;
+    height: 100%;
+}
+
+#content.kiezatlas.entry {
+    background-color: #fff;
+    border-radius: 3px;
+    margin: 8px;
+}
+
+#content.kiezatlas.entry img.bild {
+    float: left;
+    padding-right: 20px;
+}
+
+.kiezatlas.entry a.back-button {
+    float: right;
+    color: #3b7ba4;
+    position: relative;
+    top: 13px;
+    text-decoration: none;
+}
+
+.kiezatlas.page a.back-button {
+    float: right;
+    color: #3b7ba4;
+    position: relative;
+    top: 15px;
+    text-decoration: none;
+}
+
+.kiezatlas a.back-button:hover {
+    text-decoration: underline;
+}
+
+.kiezatlas .criteria {
+    /** background-color: #565656; **/
+    padding: 10px;
+    float: left;
+    width: 280px;
+}
+
+.kiezatlas .categories {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.kiezatlas .categories a {
+    padding: 7px;
+    display: block;
+    cursor: pointer;
+}
+
+.kiezatlas .categories a:hover {
+    background-color: #3b7ba4;
+    color: #fff;
+}
+
+.kiezatlas .criteria .title {
+    padding: 10px;
+}
+
+.kiezatlas .title {
+    font-size:1.2em;
+    /** background-color: #fff;
+    border-bottom: 1px solid #f5f5f5; **/
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    line-height: 1.5em;
+    border-radius: 8px;
+}
+
+.kiezatlas .category-list ol.results li {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.kiezatlas .category-list ol.results {
+    padding-left: 10px;
+}
+
+.kiezatlas ol.results a {
+    text-decoration: none;
+    color: #3b7ba4;
+}
+
+.kiezatlas ol.results a:hover {
+    text-decoration: underline;
+}
+
+.kiezatlas .search-area {
+    background-color: #3b7ba4;
+    padding: 10px;
+    color: #fff;
+    float: right;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    border-radius: 8px;
+    width: 260px;
+    /** border: 1px solid #fff; **/
+}
+
+.kiezatlas .search-area input[type=text] {
+    width: 200px;
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    padding-left: 10px;
+    width: 240px;
+}
+
+.kiezatlas .do-search {
+    cursor: pointer;
+    width: 65px;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: #3b7ba4;
+}
+
+.kiezatlas .do-search:hover  {
+    color: #000;
+}
+
+
