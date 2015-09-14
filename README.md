@@ -27,10 +27,10 @@ Achtung: Sie müssen dazu ihre `post-template.php`-Datei manuell um PHP-Code erg
 
 1. Kopieren sie aus diesem Repository den Unterordner "kiezatlas-post" in den `wp-content/plugins/`-Ordner ihrer Wordpress-Installation.
 2. Loggen sie sich in ihr Wordpress ein und aktivieren sie das neue Plugin unter "Plugins".
-3. Schreiben sie ihren Blogeintrag (_Post_) wie gewohnt nur tragen sie zusätzlich einen sog. "Custom Fields" ein um die Kiezatlas Karte für einen Kiezatlas-Datensatz einzurichten. Gehen Sie dazu folgendermaßen vor: 
-3.1 "Add New" > Select "Screen Options" (ganz oben rechts im Fenster) > "Custom Fields" auswählen/ankreuzen.
-3.2 Klappen sie nun unterhalb des Blogtexts den "Custom Fields"-Bereich aus (nur anklicken reicht).
-3.3 Beim erstmaligen Eintrag wählen sie hier "Enter new" und tragen dort exakt "Kiezatlas Topic ID" ein und im Eingabefeld "Value" daneben die ID ihres gewünschten Kiezatlas-Datensatzes (z.B.: _t-1620631_).
+3. Schreiben sie ihren Blogeintrag (_Post_) wie gewohnt nur tragen sie zusätzlich einen sog. "Custom Fields" ein um die Kiezatlas Karte für einen Kiezatlas-Datensatz einzurichten. Gehen Sie dazu folgendermaßen vor:
+3.1 "Add New" > Select "Screen Options" (ganz oben rechts im Fenster) > "Custom Fields" auswählen/ankreuzen.<br/>
+3.2 Klappen sie nun unterhalb des Blogtexts den "Custom Fields"-Bereich aus (nur anklicken reicht).<br/>
+3.3 Beim erstmaligen Eintrag wählen sie hier "Enter new" und tragen dort exakt "Kiezatlas Topic ID" ein und im Eingabefeld "Value" daneben die ID ihres gewünschten Kiezatlas-Datensatzes (z.B.: _t-1620631_).<br/>
 4. Veröffentlichen sie ihren Beitrag und eine OpenStreetMap-Karte mit den Standortinformation zu ihrem Kiezatlas-Datensatz sollte automatisch am Ende des Blogbeitrags erscheinen.
 
 ## License & Third party notes (English) 
