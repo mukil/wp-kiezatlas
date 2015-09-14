@@ -42,7 +42,7 @@ get_header(); ?>
                         // echo "workspaceId is: ".$workspaceId;
                     }
                     // 
-                    echo "Lade Stadtplaninformationen .. ";
+                    echo "Lade Stadtplaninformationen ... ";
                 ?>
 
                     <script type="text/javascript">
@@ -102,7 +102,7 @@ get_header(); ?>
                                 $search_container.append($input_field).append($ok_button)
                                 $content.append($search_container)
                             var page = "";
-                            for (i=0; i < kiezatlas.workspaceCriterias.result.length; i++) {
+                            for (var i=0; i < kiezatlas.workspaceCriterias.result.length; i++) {
                                 var crit = kiezatlas.workspaceCriterias.result[i]
                                 var categories = crit.categories
                                 $criteria = jQuery('<div class="criteria">')
